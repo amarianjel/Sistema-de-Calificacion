@@ -5,7 +5,7 @@
   if (isset($_SESSION['user_id'])) {
     header('Location: /ProyectoPHP2022');
   }
-  require 'database.php';
+  require './database/login/database.php';
 
   if (!empty($_POST['email']) && !empty($_POST['password'])) {
     $records = $conn->prepare('SELECT id, email, password FROM users WHERE email = :email');

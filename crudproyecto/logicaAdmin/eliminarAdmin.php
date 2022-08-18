@@ -1,6 +1,6 @@
  <!-- Eliminacion segun ID, retorna un mensaje acorde al tipo de dato ingresado -->
  <?php
-    include '../conexionBDD.php';
+    include '../../database/intranet/conexionBDD.php';
     
     $rut = $_GET['rut'];
 

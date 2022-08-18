@@ -1,5 +1,5 @@
 <?php
-include 'conexionBDD.php'
+include '../database/intranet/conexionBDD.php'
 ?>
 
 <!doctype html>
