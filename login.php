@@ -29,6 +29,8 @@
 <html lang= es>
   <head>
     <meta charset="utf-8">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="./assets/img/intranet.png">
     <title>Incio de sesión</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
