@@ -2,7 +2,7 @@
     $bddHost ='localhost';
     $bdduser = 'root';
     $bddpassword= '';
-    $bddname= 'intranet_bdd';
+    $bddname= 'sitema-de-calificacion-intranet';
 
     //$conectar = mysqli_connect($bddhost, $bdduser, $bddpassword, $bddname);
 

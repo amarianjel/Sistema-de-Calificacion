@@ -89,7 +89,8 @@
       <h1>Bienvenido a tu portal intranet</h1>
 
       <h3><a href="login.php" >Ingresa aquí con tus credenciales entregadas (rut y contraseña)</a></h3>
-      <!-- o
+      <!-- <br>
+      o
       <br>
       <a href="signup.php">registrate</a> -->
 
