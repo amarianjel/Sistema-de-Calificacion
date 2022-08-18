@@ -3,7 +3,7 @@
 $server = 'localhost';
 $username = 'root';
 $password = '';
-$database = 'sitema-de-calificacion-login';
+$database = 'sistema-de-calificacion-login';
 
 try {
   $conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
