@@ -5,7 +5,7 @@
   if (isset($_SESSION['user_id'])) {
     header('Location: /ProyectoPHP2022');
   }
-  require 'database.php';
+  require './database/login/database.php';
 
   if (!empty($_POST['email']) && !empty($_POST['password'])) {
     $records = $conn->prepare('SELECT id, email, password FROM users WHERE email = :email');
@@ -29,6 +29,8 @@
 <html lang= es>
   <head>
     <meta charset="utf-8">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="./assets/img/intranet.png">
     <title>Incio de sesión</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">

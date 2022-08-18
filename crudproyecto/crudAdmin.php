@@ -1,5 +1,5 @@
 <?php
-include 'conexionBDD.php'
+include '../database/intranet/conexionBDD.php'
 ?>
 
 <!doctype html>
@@ -11,6 +11,8 @@ include 'conexionBDD.php'
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="../assets/img/intranet.png">
     <title>Vista de administrador</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/headers/">

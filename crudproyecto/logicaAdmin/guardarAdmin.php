@@ -1,5 +1,5 @@
 <?php
-    include '../conexionBDD.php';
+    include '../../database/intranet/conexionBDD.php';
     $rut = $_POST['rut'];
     $edad= $_POST['edad'];
     $nombre=$_POST['nombre'];
